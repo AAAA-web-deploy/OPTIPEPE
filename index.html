@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" class="watcher loaded">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Optimus Pepe</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Optimus Pepe — the meme coin with green spirit." />
+    <style>
+      body {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease 0.2s, visibility 0.2s ease 0.2s;
+      }
+      .loaded body {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="icon" type="image/png" href="./logo.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu-open-bg"></div>
+      <header class="header">
+        <div class="header__container">
+          <a href="#" class="header__logo"
+            ><img
+              src="./assets/logo.png"
+              alt="Logo"
+              style="opacity: 0; pointer-events: none"
+          /></a>
+          <div class="header__right">
+            <div class="header__menu menu">
+              <button type="button" class="menu__icon icon-menu">
+                <span></span>
+              </button>
+              <nav class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="#" data-goto=".hero" class="menu__link _navigator-active">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" data-goto=".about" class="menu__link">About</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" data-goto=".how" class="menu__link">How to Buy</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" data-goto=".tokenomics" class="menu__link">Tokenomics</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="#" data-goto=".join" class="menu__link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <a
+              href="#"
+              class="header__button coming-soon-link"
+              data-da=".menu__body, 767.98"
+              title="Coming soon.."
+            >
+              <span>Buy NOW</span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section
+          class="page__hero hero _watcher-view"
+          data-watch="navigator"
+          data-watch-threshold="0.50"
+        >
+          <div class="hero__bg">
+            <div class="hero__back">
+              <img
+                id="heroBg"
+                src="./assets/bg.jpg"
+                alt="Image"
+                style="transform: translateY(0px)"
+              />
+            </div>
+            <div class="hero__head">
+              <img
+                id="heroHead"
+                src="./assets/head.png"
+                alt="Image"
+                style="transform: translateY(0px)"
+              />
+            </div>
+            <div class="hero__body">
+              <img id="heroBody" src="./assets/body.png" alt="Image" />
+            </div>
+            <div class="hero__skito">
+              <img
+                id="heroSkito"
+                src="./assets/hero.png"
+                alt="Image"
+                style="object-fit: contain; transform: scale(1.5)"
+              />
+            </div>
+          </div>
+          <div class="hero__container">
+            <div class="hero__actions">
+              <div class="hero__social">
+                <a
+                  href="#"
+                  class="hero__social-item hero__social-item-1 coming-soon-link"
+                  title="Coming soon.."
+                >
+                  <span><img src="./assets/x.svg" alt="X" /></span>
+                </a>
+                <a
+                  href="#"
+                  class="hero__social-item hero__social-item-2 coming-soon-link"
+                  title="Coming soon.."
+                >
+                  <span><img src="./assets/tel.svg" alt="Telegram" /></span>
+                </a>
+              </div>
+              <a href="#" class="hero__button coming-soon-link" title="Coming soon.."
+                ><span>Buy</span></a
+              >
+            </div>
+          </div>
+        </section>
+        <section
+          class="page__about about"
+          data-watch="navigator"
+          data-watch-threshold="0.79"
+        >
+          <div class="about__container">
+            <div class="about__image">
+              <img src="./assets/01.png" alt="Image" />
+            </div>
+            <div class="about__content">
+              <h2
+                class="about__title _watcher-view"
+                data-watch-threshold="0.85"
+                data-watch-once=""
+                data-watch=""
+              >
+                <img src="./assets/title.png" alt="ABOUT" />
+              </h2>
+              <div class="about__text">
+                <p>
+                  Welcome to Optimus Pepe, the meme coin with green spirit! <br />
+                  🐸🤖 Optimus Pepe isn’t just here to buzz around; it’s on a mission to make a
+                  real impact. Inspired by the famous Optimus and Pepe the Frog, we’re all about
+                  injecting some fun into crypto while donating to AI charities to help human in
+                  the world.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__how how" data-watch="navigator" data-watch-threshold="0.63">
+          <div class="how__container">
+            <div class="how__items">
+              <article class="how__item">
+                <div class="how__item-standart">
+                  <h3>Create a wallet</h3>
+                  <p>
+                    Visit
+                    <a target="_blank" href="https://metamask.io/">metamask.io</a>
+                    and follow the simple steps to create a new account with the Phantom app or
+                    browser extension.
+                  </p>
+                </div>
+              </article>
+              <article class="how__item">
+                <div class="how__item-standart">
+                  <h3>Get some ETH</h3>
+                  <p>
+                    Tap the BUY button in the app to purchase ETH, or deposit ETH to your Metamask
+                    wallet from the crypto exchange of your choice.
+                  </p>
+                </div>
+              </article>
+              <article class="how__item">
+                <div class="how__item-standart">
+                  <h3>Swap ETH for $OPTIPEPE</h3>
+                  <p>
+                    Tap the SWAP icon in your Metamask wallet and paste the $OPTIPEPE token
+                    address. Swap your ETH for $OPTIPEPE. <br />
+                    You are now a $OPTIPEPE holder! <br />
+                    Welcome to the #OPTIPEPE Army!
+                  </p>
+                </div>
+              </article>
+              <article class="how__item">
+                <div class="how__item-active">
+                  <div class="how__item-active-content">
+                    <div class="how__item-active-image">
+                      <img src="./assets/amf.png" alt="Against Malaria Foundation" />
+                    </div>
+                    <div class="how__item-active-text">
+                      every 10m MC achieved WE will donate $10k to <br />
+                      <span>For Optimus revolution</span>
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="how__item-active-button coming-soon-link"
+                    title="Coming soon.."
+                  >
+                    <span>Buy NoW</span>
+                  </a>
+                </div>
+              </article>
+            </div>
+            <div
+              class="how__right _watcher-view"
+              data-watch-threshold="0.8"
+              data-watch-once=""
+              data-watch=""
+            >
+              <h2
+                class="how__title _watcher-view"
+                data-watch-threshold="0.85"
+                data-watch-once=""
+                data-watch=""
+              >
+                <img src="./assets/title(1).png" alt="HOW TO BUY" />
+              </h2>
+              <div class="how__image">
+                <img src="./assets/01(1).png" alt="Image" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="page__tokenomics tokenomics"
+          data-watch="navigator"
+          data-watch-threshold="1.00"
+        >
+          <div class="tokenomics__container">
+            <h2
+              class="tokenomics__title _watcher-view"
+              data-watch-threshold="0.85"
+              data-watch-once=""
+              data-watch=""
+            >
+              <img src="./assets/title(2).png" alt="TOKENOMICS" />
+            </h2>
+            <div class="tokenomics__body">
+              <div class="tokenomics__image"></div>
+              <div class="tokenomics__info">
+                <img src="./assets/info.png" alt="Image" />
+                <div class="tokenomics__info-ca">
+                  <span id="tokenValue">Coming soon..</span>
+                  <button type="button" class="copy-ca-btn" title="Coming soon..">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="37"
+                      height="37"
+                      viewBox="0 0 37 37"
+                      fill="none"
+                    >
+                      <path
+                        d="M31.2988 4.71582L13.2085 4.71582C12.9086 4.71582 12.621 4.83494 12.409 5.04698C12.1969 5.25902 12.0778 5.5466 12.0778 5.84647V11.4997H6.42459C6.12473 11.4997 5.83714 11.6188 5.6251 11.8309C5.41307 12.0429 5.29395 12.3305 5.29395 12.6303L5.29395 30.7207C5.29395 31.0205 5.41307 31.3081 5.6251 31.5202C5.83714 31.7322 6.12473 31.8513 6.42459 31.8513H24.5149C24.8148 31.8513 25.1024 31.7322 25.3144 31.5202C25.5265 31.3081 25.6456 31.0205 25.6456 30.7207V25.0674H31.2988C31.5987 25.0674 31.8863 24.9483 32.0983 24.7363C32.3103 24.5243 32.4294 24.2367 32.4294 23.9368V5.84647C32.4294 5.5466 32.3103 5.25902 32.0983 5.04698C31.8863 4.83494 31.5987 4.71582 31.2988 4.71582ZM23.3843 29.59H7.55524V13.761H23.3843V29.59ZM30.1682 22.8062H25.6456V12.6303C25.6456 12.3305 25.5265 12.0429 25.3144 11.8309C25.1024 11.6188 24.8148 11.4997 24.5149 11.4997H14.3391V6.97711H30.1682V22.8062Z"
+                        fill="#3D3737"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__join join" data-watch="navigator" data-watch-threshold="0.89">
+          <div class="join__container">
+            <h2
+              class="join__title _watcher-view"
+              data-watch-threshold="0.85"
+              data-watch-once=""
+              data-watch=""
+            >
+              <img src="./assets/title(3).png" alt="JOIN US" />
+            </h2>
+            <div class="join__actions">
+              <a href="#" class="join__button coming-soon-link" title="Coming soon..">
+                <span>Buy Now</span>
+              </a>
+              <div class="join__social">
+                <a
+                  href="#"
+                  class="join__social-item join__social-item-1 coming-soon-link"
+                  title="Coming soon.."
+                >
+                  <span><img src="./assets/x.svg" alt="X" /></span>
+                </a>
+                <a
+                  href="#"
+                  class="join__social-item join__social-item-2 coming-soon-link"
+                  title="Coming soon.."
+                >
+                  <span><img src="./assets/tel.svg" alt="Telegram" /></span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="join__images">
+            <div class="join__skito">
+              <img src="./assets/01(2).png" alt="OPTIPEPE" />
+            </div>
+            <div class="join__decor">
+              <img src="./assets/02.png" alt="OPTIPEPE" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__container">
+            <div class="footer__top-body">
+              <div class="footer__top-image">
+                <img src="./assets/01(3).png" alt="Image" />
+              </div>
+              <div class="footer__top-right">
+                <div class="footer__top-menu">
+                  <a href="#" data-goto=".hero" class="footer__top-link">Home</a>
+                  <a href="#" data-goto=".about" class="footer__top-link">About</a>
+                  <a href="#" data-goto=".how" class="footer__top-link">How to Buy</a>
+                  <a href="#" data-goto=".tokenomics" class="footer__top-link">Tokenomics</a>
+                </div>
+                <div class="footer__top-social">
+                  <a
+                    href="#"
+                    class="footer__top-social-item footer__top-social-item-3 coming-soon-link"
+                    title="Coming soon.."
+                  >
+                    <span>
+                      <img src="./assets/dex.svg" alt="Dexscreener" />
+                    </span>
+                  </a>
+                  <a
+                    href="#"
+                    class="footer__top-social-item footer__top-social-item-4 coming-soon-link"
+                    title="Coming soon.."
+                  >
+                    <span>
+                      <img src="./assets/dext.svg" alt="Dextools" />
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__container">
+            <div class="footer__bottom-body">
+              <span>2026 © ALL RIGHTS RESERVED</span>
+              <span>Optimus Pepe</span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/app.min.js"></script>
+    <script>
+      document.querySelectorAll(".coming-soon-link").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          alert("Coming soon..");
+        });
+      });
+    </script>
+  </body>
+</html>

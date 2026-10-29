@@ -1,0 +1,11 @@
+﻿.DS_Store
+Thumbs.db
+*.rar
+*.zip
+_rar_extract/
+_live_probe/
+Optimus Pepe.html
+Optimus Pepe_files/
+site_build/
+.cursor/
+*.log
